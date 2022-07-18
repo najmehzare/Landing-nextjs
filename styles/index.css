@@ -1,0 +1,13 @@
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply font-body bg-gray-100;
+        font-family: 'IRANSans';
+    }
+    body {
+        direction: rtl;
+        text-align: right;
+        background-color: #f5f7f7;
+    }
+}
